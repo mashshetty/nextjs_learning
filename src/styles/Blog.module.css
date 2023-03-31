@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* background-color: red; */
+    
+}
+
+.header{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 70%;
+}
+
+.blogContent{
+    width: 70%;
+    margin: 10px;
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    /* text-align: center; */
+}
+
+.pContent{
+    width: 100%;
+    text-align: left;
+}

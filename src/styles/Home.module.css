@@ -1,9 +1,9 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
 }
 
@@ -44,6 +44,11 @@
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+}
+
+.mtb{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -275,4 +280,16 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.nav ul{
+ display: flex;
+ justify-content: center;
+}
+
+.nav ul li{
+  margin-inline: 10px;
+  list-style: none;
+  font-weight: 600;
+  cursor: pointer;
 }
